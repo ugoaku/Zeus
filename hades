@@ -1,0 +1,15 @@
+num3 = int(input("a num:"))
+num4 = int(input("another num:"))
+print(num3+num4)
+print(num3*num4)
+
+num5 = int(input("Guess any number:"))
+num6 = int(input("Guess another number:"))
+print(num5*num6+num5/num5-num6)
+
+
+t = int(input("Give me any number:"))
+if t > 150:
+  print("The number is the idea from Zeus")
+else:
+    print("It can be found in the bossom of Hades")
